@@ -8,7 +8,7 @@
 
 [简体中文](README.md) · **English** · [日本語](README.ja.md)
 
-[Prompt installation (recommended)](#install-with-a-prompt) · [Manual installation](#manual-installation) · [Features](#features) · [Demo](#demo)
+[Prompt installation (recommended)](#install-with-a-prompt) · [Manual installation](#manual-installation) · [Features](#features)
 
 </div>
 
@@ -114,14 +114,8 @@ With multiple files connected, get the target connection ID from `figmote status
 </tr>
 </table>
 
-## Documentation and contributions
+## Documentation
 
 [Agent guide](skills/figma-workbench/SKILL.md) · [Capabilities](CAPABILITIES.md) · [Issues](https://github.com/Duoasa/Figmote/issues)
 
-Thanks to [heeq666](https://github.com/heeq666) and [miztizm](https://github.com/miztizm) for their feedback and contributions to the original local plugin.
-
 [MIT](LICENSE) · Copyright © 2026 Duoasa.
-
-## Demo
-
-<!-- Demo media -->

@@ -8,7 +8,7 @@
 
 [简体中文](README.md) · [English](README.en.md) · **日本語**
 
-[プロンプトでインストール（推奨）](#プロンプトでインストール) · [手動インストール](#手動インストール) · [機能](#機能) · [実機デモ](#実機デモ)
+[プロンプトでインストール（推奨）](#プロンプトでインストール) · [手動インストール](#手動インストール) · [機能](#機能)
 
 </div>
 
@@ -114,14 +114,8 @@ figmote call get_selection
 </tr>
 </table>
 
-## ドキュメントと貢献
+## ドキュメント
 
 [使い方](skills/figma-workbench/SKILL.md) · [機能の詳細](CAPABILITIES.md) · [問題を報告](https://github.com/Duoasa/Figmote/issues)
 
-元のローカルプラグインにフィードバックと貢献を寄せてくださった [heeq666](https://github.com/heeq666) さんと [miztizm](https://github.com/miztizm) さんに感謝します。
-
 [MIT](LICENSE) · Copyright © 2026 Duoasa.
-
-## 実機デモ
-
-<!-- Demo media -->
