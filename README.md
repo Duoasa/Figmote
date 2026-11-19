@@ -4,7 +4,7 @@
 
 # Figmote
 
-**用自然语言读懂、创建和修改 Figma 设计。**
+**用自然语言操作 Figma。本地插件读写画板不限次数，不消耗 Figma MCP 额度。**
 
 **简体中文** · [English](README.en.md) · [日本語](README.ja.md)
 

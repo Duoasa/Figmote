@@ -4,7 +4,7 @@
 
 # Figmote
 
-**Read, create and edit Figma designs with natural language.**
+**Read and edit Figma in natural language. The local plugin supports unlimited canvas calls and uses zero Figma MCP quota.**
 
 [简体中文](README.md) · **English** · [日本語](README.ja.md)
 
