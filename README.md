@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- Hero image -->
+![Figmote：用 Agent 操作 Figma 画板](assets/brand/github-header.png)
 
 # Figmote
 

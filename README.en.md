@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- Hero image -->
+![Figmote — agent control for Figma](assets/brand/github-header.png)
 
 # Figmote
 

@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- Hero image -->
+![Figmote：エージェントで Figma のキャンバスを操作](assets/brand/github-header.png)
 
 # Figmote
 
