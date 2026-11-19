@@ -1,0 +1,14 @@
+{
+  "name": "figmote",
+  "version": "0.1.0-dev.0",
+  "description": "Read, edit, and verify Figma designs from local AI agents.",
+  "type": "module",
+  "license": "MIT",
+  "repository": "github:Duoasa/Figmote",
+  "engines": { "node": ">=22" },
+  "bin": { "figmote": "./cli.mjs" },
+  "exports": { ".": "./index.mjs", "./client": "./client.mjs" },
+  "files": ["index.mjs", "client.mjs", "cli.mjs", "lib", "companion", "assets/companion/FEATHER-LICENSE", "skills", "CAPABILITIES.md", "README.md", "LICENSE"],
+  "scripts": { "build": "node scripts/check.mjs", "test": "node --test test/*.test.mjs" },
+  "dependencies": { "acorn": "8.15.0", "ajv": "^8.17.1", "playwright-core": "1.65.0" }
+}
