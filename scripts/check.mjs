@@ -13,6 +13,11 @@ const extensions=await Promise.all(['context','media','authoring','operations','
 await writeFile(join(root,'companion/code.js'),['globalThis.DSH_FIGMA_VERSION = '+JSON.stringify(pkg.version)+';',helpers,capabilities,...extensions,runtime,main].join('\n'))
 const uiPath=join(root,'companion/ui.html'),compare=await readFile(join(root,'companion/compare.js'),'utf8')
 let ui=await readFile(uiPath,'utf8')
+const panelArt = await readFile(join(root, 'assets/brand/plugin-art@2x.png'))
+const artSource = /(<img class="art" src=")data:image\/png;base64,[^"]+/
+if (!artSource.test(ui)) throw new Error('Companion illustration slot is missing')
+ui = ui.replace(artSource, (_, prefix) => prefix + 'data:image/png;base64,' + panelArt.toString('base64'))
+
 const start='/* BEGIN GENERATED COMPARE */',end='/* END GENERATED COMPARE */'
 if(ui.includes(start))ui=ui.slice(0,ui.indexOf(start))+start+'\n'+compare+'\n'+ui.slice(ui.indexOf(end))
 else ui=ui.replace('<script>','<script>\n'+start+'\n'+compare+'\n'+end)
