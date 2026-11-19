@@ -8,7 +8,7 @@
 
 **简体中文** · [English](README.en.md) · [日本語](README.ja.md)
 
-[提示词安装（推荐）](#提示词安装) · [手动安装](#手动安装) · [功能](#功能) · [实机演示](#实机演示)
+[提示词安装（推荐）](#提示词安装) · [手动安装](#手动安装) · [功能](#功能)
 
 </div>
 
@@ -114,14 +114,8 @@ figmote call get_selection
 </tr>
 </table>
 
-## 文档与贡献
+## 文档
 
 [使用指南](skills/figma-workbench/SKILL.md) · [能力说明](CAPABILITIES.md) · [反馈问题](https://github.com/Duoasa/Figmote/issues)
 
-感谢 [heeq666](https://github.com/heeq666) 与 [miztizm](https://github.com/miztizm) 对原项目本地插件的反馈和贡献。
-
 [MIT](LICENSE) · Copyright © 2026 Duoasa.
-
-## 实机演示
-
-<!-- Demo media -->
