@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.figma/
+.dsh/
+.DS_Store
+.env
+.env.*
+.npmrc
+*.tgz
+*.log
+coverage/
+output/
+tmp/
